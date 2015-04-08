@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="weavertour/jquery_wev8.js"></script>
+    <link rel="stylesheet" href="weavertour/weavertour.css">
+</head>
+<body>
+    <div style="width: 200px;height: 200px;background: red" id="test">
+
+    </div>
+
+    <div style="position: absolute;width: 200px;height: 200px;background: blue;top: 1000px;left: 300px;" id="test1">
+
+    </div>
+
+    <div style="position: absolute;width: 200px;height: 200px;background: blue;top: 10px;right: 100px;" id="test2">
+
+    </div>
+
+    <div style="position: absolute;width: 50px;height: 50px;background: blue;top: 200px;right: 500px;" id="test3">
+
+    </div>
+
+    <script src="weavertour/weavertour.js"></script>
+    <script>
+        var config = {
+            steps:[
+                     {title:"标题测试",describe:"描述信息",elid:"test",position:"right"},
+                     {title:"标题测试1",describe:"描述信息1",elid:"test1",position:"top"},
+                     {title:"标题测试2",describe:"描述信息2",elid:"test2",position:"left"},
+                     {title:"标题测试3",describe:"描述信息3",elid:"test3",position:"left"}
+                  ]
+        }
+        var WeaverTour = new WeaverTour(config);
+        WeaverTour.startTour();
+    </script>
+</body>
+</html>
