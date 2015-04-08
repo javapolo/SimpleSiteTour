@@ -12,10 +12,10 @@ step two(第二步):how to use it
         
 	 var config = {
 	    steps:[
-		     {title:"标题测试",describe:"描述信息",elid:"test",position:"right"},
-		     {title:"标题测试1",describe:"描述信息1",elid:"test1",position:"top"},
-		     {title:"标题测试2",describe:"<div color='red'>描述信息2</div>",elid:"test2",position:"left"},
-		     {title:"标题测试3",describe:"描述信息3",elid:"test3",position:"left"}
+		     {title:"功能一",describe:"描述信息",elid:"test",position:"right"},
+		     {title:"功能二",describe:"描述信息1",elid:"test1",position:"top"},
+		     {title:"功能三",describe:"<div color='red'>描述信息2</div>",elid:"test2",position:"left"},
+		     {title:"功能四",describe:"描述信息3",elid:"test3",position:"left"}
 		  ]
 	}
 	var WeaverTour = new WeaverTour(config);
