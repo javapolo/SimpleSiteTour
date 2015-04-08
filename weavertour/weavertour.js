@@ -1,13 +1,13 @@
 /**
  * Created by lsj on 2015/3/31.
  */
-var WeaverTour = (function(win,doc,$){
+(function(win,doc,$){
    var TRIANGLE_EDGE = 10,
         LANGAGE = {quit:"退出", pre:"上一步",next:"下一步"},
         tbody = $(doc.body);
 
-    /**
-     * steps 所有步骤
+	/**
+     * steps 所有步骤(all steps)
      * speed 步骤切换动画时间
      * @type {Function}
      */
@@ -19,7 +19,7 @@ var WeaverTour = (function(win,doc,$){
 
     //开始导航
     WeaverTour.prototype.startTour = function(){
-        if( this.options.steps.length > 0){
+        if( this.options.steps.length > 0){	
             this.currentStep = this.options.steps[0];
             this.generatorTipDialog();
             this.setElOverLay();
@@ -184,5 +184,4 @@ var WeaverTour = (function(win,doc,$){
              }
         });
     }
-    return WeaverTour;
 })(window,document,jQuery)

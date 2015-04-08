@@ -1,5 +1,5 @@
 这是个简单的网页功能介绍导航插件，只需两步即可使用
-this is a simple site tour plugin! it's easy to user,what you need to do is just two steps;
+this is a simple site tour plugin! it's easy to use,what you need to do is just two steps;
 
 step one(第一步):files depends on 
     
