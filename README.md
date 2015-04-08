@@ -1,0 +1,1 @@
+this is a simple site tour plugin! it's easy to user,what you need to do is just three steps;
