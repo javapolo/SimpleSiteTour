@@ -28,4 +28,4 @@ step two(第二步):how to use it
     title 功能标题
     describe  功能描述
     elid  元素id
-    position  箭头方向
+    position  箭头方向(left,right,bottom,right)
